@@ -12,5 +12,9 @@ const codes = [
 ];
 
 function init() {
-  // your code here
+  document.body.addEventListener('keyodwn', (e) => {
+    console.log(e.key)
+  })
 }
+
+init()
