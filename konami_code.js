@@ -17,4 +17,20 @@ function init() {
   })
 }
 
+
+var index = 0
+function onKeyDownHandler(event) {
+  const key = event.key
+  
+  if (key == codes[index]) {
+    index++
+    
+    if (index == codes.length) {
+      alert("Correct")
+      index = 0
+      
+    }else {index = 0}
+  }
+}
+
 init()
