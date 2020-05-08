@@ -15,8 +15,17 @@ function init() {
   document.body.addEventListener('keydown', handleEvent)
 }
 
+var index = 0
 handleEvent = (event) => {
-  console.log(event)
+  const key = event.key
+  
+  if (key === codes[index]) {
+    index++
+    if (index == codes.length) {
+      alert("Success")
+      index = 0
+    }
+  }else {index = 0}
 }
 
 
