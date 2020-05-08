@@ -15,7 +15,7 @@ function init() {
   document.body.addEventListener('keydown', handleEvent)
 }
 
-function handleEvent(event) {
+handleEvent = (event) => {
   console.log(event)
 }
 
