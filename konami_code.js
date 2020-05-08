@@ -11,9 +11,8 @@ const codes = [
   "a"
 ];
 
-document.body.addEventListener('keydown', handleEvent)
-
 function handleEvent(event) {
   console.log(event)
 }
 
+document.body.addEventListener('keydown', handleEvent)
