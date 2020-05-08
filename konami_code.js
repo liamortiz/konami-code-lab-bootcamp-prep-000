@@ -22,7 +22,7 @@ handleEvent = (event) => {
   if (key === codes[index]) {
     index++
     if (index == codes.length) {
-      alert("Success")
+      alert("Hurray")
       index = 0
     }
   }else {index = 0}
